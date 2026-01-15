@@ -7,6 +7,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    color: #303030;
 }
 
 
@@ -36,7 +37,7 @@ header span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .main-text {
@@ -64,6 +65,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url("./Assets/ep_arrow-down.svg");
+    background-repeat: no-repeat;
 }
 
 .section-title {
@@ -76,7 +78,7 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url("./Assets/solar_map-arrow-up-bold.svg");
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -85,7 +87,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 25px;
+    padding: 0 20px;
     margin-right: 10px;
 }
 
@@ -105,7 +107,7 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
-
+    font-size: 16px;
 }
 
 .btn {
@@ -135,7 +137,7 @@ table {
 th, td {
     /* Стили для ячеек таблицы */
     border: 1px solid #95a1bb;
-    padding: 11px 58px 12px 15px
+    padding: 12px 15px
 }
 
 footer {
@@ -143,7 +145,7 @@ footer {
     background: rgba(163, 167, 255, 0.3);
     width: 1440px;
     height: 70px;
-    padding: 26px 0 27px;
+    padding: 26px 0;
 }
 
 .footer-link {
